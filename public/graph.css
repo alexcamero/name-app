@@ -1,0 +1,235 @@
+body {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFF;
+}
+
+#mainSVG {
+    width: 100%;
+}
+
+#sidebar {
+    width: 100%;
+    max-height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.mainDiv {
+    background-color: #FFF;
+}
+
+#options {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#options h2 {
+    display: none;
+}
+
+.optionRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.optionRow label {
+    margin: 0 10px;
+}
+
+#nameArea {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#nameArea h2 {
+    padding: 0;
+    margin: 10px 0 5px 0;
+}
+
+#controls {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 50%;
+    margin: 0 3px;
+}
+
+button {
+    border: 0 solid black;
+    background-color: rgb(27, 179, 218);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 3px;
+}
+
+#currentNames {
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+
+.nameButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 70%;
+    margin: 5px 0 5px 5px;
+    box-shadow: 1px 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+.nameButtonTopRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.nameButton:hover {
+    box-shadow: 1px 0 3px 3px rgba(100, 0, 0, .5);
+}
+
+.nameAndColor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    margin: 5px 0 5px 10px;
+}
+
+.colorSquare {
+    padding: 0;
+    margin: 0;
+}
+
+.nameButton p {
+    padding: 0;
+    margin: 0 10px 0 7px;
+}
+
+.buttonDiv button {
+    border: 0 solid black;
+    background-color: #FFF;
+    font-size: 12;
+
+}
+
+.closeButton {
+    margin: 0;
+    padding: 0;
+    margin-right: 7px;
+}
+
+.moreButton {
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.flash h3 {
+    margin: 0;
+    padding: 5px 5px 5px 8px;
+    font-size: 14px;
+    color: red;
+}
+
+.subControls {
+    margin-bottom: 5px;
+}
+
+hr {
+    width: 99%;
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    #sidebar {
+        max-height: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width: 900px) {
+
+    body {
+        width: 97vw;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #999;
+    }
+
+    #mainSVG {
+        height: 80%;
+        width: 75%;
+    }
+    
+    #sidebar {
+        height: 80%;
+        width: 20%;
+        justify-content: space-between;
+    }
+    
+    .mainDiv {
+        box-shadow: 0 2px 5px 5px;
+    }
+    
+    #nameArea {
+        height: 78%;
+        width: 100%;
+    }
+    
+    #options {
+        height: 17%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #options h2 {
+        display: block;
+        padding: 0;
+        margin: 10px 0 5px 0;
+    }
+    
+    
+}
+
+
+

@@ -1,0 +1,19 @@
+{
+  "name": "name-app",
+  "version": "1.0.0",
+  "description": "An app for looking at the relative popularity of first names in the US since 1937 according to data published by the SSA.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alex Cameron",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexcamero/popular-names"
+  }
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
